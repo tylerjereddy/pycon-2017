@@ -42,5 +42,42 @@ A few other files (image files, small ad hoc Python libraries) are stored in the
     - k-d trees
       - Example Exploring k-d trees with scipy.spatial
 6) Convex Hulls
+    - Convexity, Convex Hulls and General Position
+    - Practical Algorithm Time & Space Complexities
+    - Determine the time complexity of the `ConvexHull` algorithm used by `scipy.spatial` (which is actually just a wrapper for the popular `qhull` package)
+      -  Can the Python community do better than `scipy.spatial.ConvexHull`?
+    - Practical Examples with `scipy.spatial.ConvexHull`
+      - 2D
+      - 3D
+7) Delaunay Triangulations
+     - Definition and Basic Information
+     - The Empty Circle Property
+     - Practical Applications of `scipy.spatial.Delaunay()`
+       - 2D
+     - Measuring the time complexity of `scipy.spatial.Delaunay()`
+8) Voronoi Diagrams
+    - Definition and Importance
+    - Overview of Algorithms and their Time Complexities (2D)
+    - Practical Problem Solving with `scipy.spatial.Voronoi()`
+      - 2D
+      - 3D
+    - Measuring the Time Complexity for 2D `scipy.spatial.Voronoi()`
+    - `scipy.spatial.SphericalVoronoi()`
+      - Calculating Surface Area of Spherical Polygons
+9) Shape Comparison
+    - Procrustes analysis
+    - Examples using scipy.spatial.procrustes
+      - Simple Example -- Two Circles
+      - More complex shapes -- comparison of two bone structures
+    - The Hausdorff Distance
+      - Simple Example: Concentric circles with one outlier
+    - The Frechet Distance (Proposed)
+      - The Classic / Intuitive Interpretation (Informal Definition)
+      - Discrete Frechet Distance Example -- Path of an Autonomous Vehicle
+10) Miscellaneous Topics
+    - Hyperrectangles
+      - Exploring scipy.spatial.Rectangle with some examples
+11) Discussion -- What would you really like to have available in scipy.spatial?
+      
     
     
